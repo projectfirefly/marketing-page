@@ -1,0 +1,80 @@
+.button_badges_container {
+    padding-top: 10%;
+
+
+
+    button{
+    
+        height: auto;
+        width: 51%;
+        background-color: #4aa810;
+        box-shadow: 0px 3px #3e8c0d;
+        color:#e2f5d6;
+        padding: 0.8rem;
+        text-transform: uppercase;
+        font-size:1.6rem;
+        border-radius:10px;
+        cursor: pointer;
+        opacity:0.92;
+        transition: opacity .25s ease-in-out;
+        letter-spacing: 1px;
+        outline: none;
+        align-self: flex-start;
+        
+    }
+    
+    button:active {
+      
+        margin: 3px 0 -3px 0;
+        // align-self: flex-start;
+        // margin-left: 7%;
+      
+    }
+
+    .badges {
+        // border: 1px solid red;
+        display: flex;
+        // justify-content: center;
+        cursor: pointer;
+        align-self: flex-start;
+        // margin-left: 7%;
+       
+    }
+    
+    .badges .ios {
+        width: 23.4%;
+        // height: 60%;
+        margin-top: .6%;
+    }
+    
+    .badges .android {
+        height: auto;
+        // height: 125%;
+        width: 29.7%;
+    }
+    
+}
+
+
+
+@media (max-width: 500px){
+
+    .button {
+        width: 100%;
+    }
+
+    .badges {
+        // border: 1px solid red;
+        justify-content: space-between;
+    }
+    .badges .ios {
+        height: auto;
+        width: 35%;
+        margin-left: 3%;
+    }
+
+    .badges .android {
+        width: 45%;
+        margin: 0;
+    }
+}

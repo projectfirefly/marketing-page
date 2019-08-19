@@ -1,6 +1,8 @@
 import React from 'react';
 import MediaQuery from 'react-responsive';
+import Badges from './Badges';
 
+import '../Styles/marketing_testimony.scss';
 const Testimonies = _ => {
     const mobile = 500;
     const desktop = 501;
@@ -10,9 +12,9 @@ const Testimonies = _ => {
         
         <MediaQuery maxWidth={mobile}>
             <div className="bottom_card">
-                <img src={require("./img/middle_page_firefly_mobile.PNG")} className="middle_page_firefly" alt=""/>
+                <img className="middle_page_firefly" src={require("../img/middle_page_firefly_mobile.PNG")} alt=""/>
                 <div className="test1 testimony">
-                    <img src={require("./img/TestimonialBabay.png")} alt=""/>
+                    <img src={require("../img/TestimonialBabay.png")} alt=""/>
                     <p className="testimony_text">
                         
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -22,16 +24,8 @@ const Testimonies = _ => {
                             <span class="testimony_name">&mdash;&mdash; Mom.B</span>
                     </p>
                     
-                    <div className="buttons">
-                        <button className='button'> JOIN OUR ADVENTURE</button>
-                            <div className="badges">
-
-                                <img className="appStore_badge ios" src={require("./img/appstore.svg")} alt=""/>
-                                <img className="appStore_badge android" src={require("./img/google-play-badge (1).png")} alt=""/>
-                            </div>
-                    </div>   
-                     
-                    
+                    <Badges />
+         
                 </div>
             </div>
         </MediaQuery>
@@ -39,7 +33,7 @@ const Testimonies = _ => {
         <MediaQuery minWidth={desktop}>
 
         <div class="bottom_card">
-                <img src={require("./img/middle_paage_firefly.PNG")} className="middle_page_firefly" alt=""/>
+                <img className="middle_page_firefly" src={require("../img/middle_page_firefly.PNG")}  alt=""/>
                 <div className="test1 testimony">
                     <i className="quotes_icon quote_left fas fa-quote-left fa-3x"></i>
                     <p className="testimony_text">
@@ -52,7 +46,7 @@ const Testimonies = _ => {
                     </p>
                     <i className="quotes_icon quote_right fas fa-quote-right fa-3x"></i>
 
-                    <img src={require("./img/TestimonialBabay.png")} alt=""/>
+                    <img src={require("../img/TestimonialBabay.png")} alt=""/>
                 </div>
                 <div className="test2 testimony">
                         
@@ -70,7 +64,7 @@ const Testimonies = _ => {
                         </div>
                         <i className="quotes_icon quote_right fas fa-quote-right fa-3x"></i>
                     
-                    <img src={require("./img/TestimonialDad.png")} alt=""/>
+                    <img src={require("../img/TestimonialDad.png")} alt=""/>
                 </div>
                 <div class="test3 testimony">
                         <i className="quotes_icon quote_left fas fa-quote-left fa-3x"></i>
@@ -84,7 +78,7 @@ const Testimonies = _ => {
                         </p>
                         <i className="quotes_icon quote_right fas fa-quote-right fa-3x"></i>
 
-                    <img src={require("./img/TestimonialGirl.png")} alt=""/>
+                    <img src={require("../img/TestimonialGirl.png")} alt=""/>
                 </div>
                 
             </div>

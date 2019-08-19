@@ -1,0 +1,48 @@
+.header {
+    // border: 1px solid green;
+    display: flex;
+    justify-content: space-between; 
+    padding: 1.5%;
+
+    .logo img {
+        height: auto;
+        width: 120%;
+    }
+
+    .nav_bar {
+        // border: 1px solid red;
+        width: 39%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        a {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+    }
+}
+
+@media (max-width: 700px) {
+    
+    .header {
+        // border: 1px solid red;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+
+        .logo img {
+            width: 100%;
+        }
+
+        .nav_bar {
+            align-content: center;
+
+            .meet_team {
+                display: none;
+         
+             }
+        }
+    }
+    
+}

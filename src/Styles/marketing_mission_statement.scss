@@ -1,0 +1,61 @@
+.mission_statement {
+    width: 87%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    // padding: 5%;
+
+    img {
+        width: 50%;
+    }
+
+    .text {
+        // border: 1px solid rebeccapurple;
+        width: 50%;
+        font-size: 2rem;
+        display: flex;
+        flex-direction: column;
+
+        p {
+            width: 85%;
+            // border: 1px solid red;
+        }
+
+        h2 {
+            color: #6BB83B;
+            margin: 23% 0 0 0;
+            font-size: 3rem;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .mission_statement {
+        flex-direction: column;
+
+        .text {
+            width: 100%;
+            font-size: 1.2rem;
+            align-items: center;
+            margin: 5% auto;
+
+            img {
+                width: 95%;
+            }
+
+            p {
+                width: 100%;
+            }
+
+            h2 {
+                font-size: 2.1rem;
+                margin: 10% 0 0 0;
+            }
+
+            .little_hands {
+                font-size: 1.89rem;
+            }
+        }
+    }
+    
+}

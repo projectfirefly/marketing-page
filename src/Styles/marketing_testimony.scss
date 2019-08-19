@@ -1,0 +1,112 @@
+.bottom_card {
+    position: relative;
+    width: 87%;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+
+    .middle_page_firefly {
+        width: 8%;
+        position: absolute;
+        right: -5%;
+        top: -4.3%;
+    
+    }
+
+    .testimony {
+        // border: 1px solid pink;
+        display: flex;
+        margin: 7% 2%;
+        position: relative;
+        font-size: 1.5rem;
+
+        img {
+            width: 20%;
+        }
+
+        .testimony_name {
+            position: absolute;
+            bottom: 25%;
+            right: 30%;
+        }
+        
+        .testimony_text {
+            top: 50%;
+            margin-top: 5%;
+        
+        }
+
+        .quotes_icon {
+            color: #4aa810;
+            opacity: .3;
+            margin: 0 2%;
+        }
+        
+        .quote_right {
+            position: absolute;
+            right: 20%;
+            bottom: 10%;
+        }
+
+        .testing {
+            // border: 1px solid red;
+            width: 80%;
+            margin: 0 auto;
+        }
+        
+        .test2 {
+            flex-direction: row-reverse;
+            position: relative;
+        }
+        
+        .test2 .quote_right {
+            position: absolute;
+            right: 1%;
+        }
+        
+        .test2 .testimony_name {
+            right: 10%;
+        }
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .bottom_card {
+
+        .middle_page_firefly {
+            width: 30%;
+       top: -2.8%;
+        }
+
+        .testimony {
+            
+            // border: 1px solid red;
+            font-size: 1rem;
+            flex-direction: column;
+            align-items: center;
+
+            img {
+                width: 60%;
+                margin-top: 20%;
+           }
+
+           .testimony_name {
+            bottom: -10%;
+            right: 0;
+            font-size: 1.5rem;
+            }
+
+            .testimony_text {
+                position: relative;
+             //    border: 1px solid red;
+                width: 80%;
+            }
+    
+           
+        }
+    }
+}

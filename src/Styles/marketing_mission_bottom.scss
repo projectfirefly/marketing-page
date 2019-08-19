@@ -1,0 +1,41 @@
+.more_info {
+    width: 87%;
+    margin: 3% auto;
+    // border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.1rem;
+
+    .tags {
+        // border: 1px solid red;
+        // margin: 1%;
+        width: 27%;
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .more_info {
+
+        img{
+
+        width: 100%;
+       
+        }
+
+        .tags {
+            width: 25%;
+            font-size: 1rem;
+            // border: 1px solid greenyellow;
+
+            p {
+                display: none;
+            }
+
+            img {
+                width: 90%;
+            }
+        }
+    }
+    
+}

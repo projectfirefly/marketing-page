@@ -1,5 +1,6 @@
 import React from 'react';
 
+import '../Styles/marketing_how_it_works.scss';
 const HowItWorks = _ => {
 
     return (

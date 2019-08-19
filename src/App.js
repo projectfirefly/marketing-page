@@ -1,23 +1,16 @@
 import React from 'react';
-import Header from './Header';
-import MissionStatement from './MissionStatement';
-import MissionStatementBottom from './MissionStatementBottom';
-import HowItWorks from './HowItWorks';
-import Testimonies from './Testimonies';
-import Footer from './Footer';
-import './marketing.scss'
+import { Route } from 'react-router-dom';
+
+import MarketingPage from './Components/MarketingPage';
+import TeamPage from './Components/TeamPage';
 
 
 const App = _ => {
 
   return(
     <div className="container">
-      <Header />
-      <MissionStatement /> 
-      <MissionStatementBottom />
-      <HowItWorks />
-      <Testimonies />
-      <Footer /> 
+      <Route exact path="/" render={MarketingPage} />
+      <Route path="/teamPage" render={TeamPage} />
     </div>
   )
 }

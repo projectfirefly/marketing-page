@@ -1,0 +1,205 @@
+.team_page_container {
+    box-sizing: border-box;
+
+    .who_we_are {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        position: relative;
+
+        .Who_we_are_firefly {
+            width: 25%;
+            position: absolute;
+            top: 3%;
+            left: 8%;
+        }
+
+        .team_view {
+    
+            height: 60%;
+            width: 95%;
+            margin: 2% auto;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        
+            .member_div {
+                width: 17%;
+                border: 1px solid white;
+                position: relative;
+                cursor: pointer;
+                opacity: .8;
+
+                &:hover {
+                    opacity: 1;
+                    border-color: #49A710;
+                }
+        
+                img {
+                    width: 100%;
+                    height: 100%;
+                    
+                }
+        
+                .name, .roll {
+                    position: absolute;
+                    bottom: 0;
+                    left: 1%;
+                    color: white;
+                    text-shadow: 1px 2px 5px black;
+                }
+        
+                .name {
+                    font-size: 1.6rem;
+                    bottom: 6%;
+                }
+        
+                .roll {
+                    font-size: 1.3rem;
+                    bottom: -5%;
+                    
+        
+                }
+            }
+        }
+    }
+    
+    .team_mission_statement {
+    
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        height: 100vh;
+        padding: 10% 3%;
+
+        h1 {
+            font-size: 3rem;
+            color: #4AA810;
+        }
+
+        p {
+            font-size: 2.2rem;
+            width: 40%;
+            word-spacing: 10px;
+        }
+
+        .teamPage_main_pic {
+            width: 46%;
+            position: absolute;
+            right: 1.5%;
+            top: 1.5%;
+            z-index: 1;
+
+        }
+
+        .button_badges_container {
+            width: 40%;
+            position: absolute;
+            left: 27%;
+            top: 45%;
+        }
+       
+    }
+    
+    .our_story {
+    
+        // border: 1px solid black;
+        height: 55vh;
+        background: #5B4EFF;
+        color: white;
+        position: relative;
+        padding-top: .5%;
+        margin-bottom: 5%;
+
+        h1 {
+            width: 50%;
+            font-size: 3rem;
+            text-align: center;
+        }
+
+        p {
+            font-size: 2rem;
+        }
+
+        .our_story_text {
+            width: 45%;
+            margin-left: 5%;
+        }
+        
+        img {
+            width: 9%;
+            position: absolute;
+            bottom: -8.4%;
+            left: 35%;
+        }
+    }
+
+    
+
+    .testimony_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        font-size: 1.5rem;
+        height: 100vh;
+        margin-bottom: 5%;
+
+        img {
+            width: 20%;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+
+        .testimony1_div {
+            align-self: flex-end;
+            height: 30%;
+            width: 80%;
+            margin: 0 auto;
+            position: relative;
+
+            img {
+                position: absolute;
+            }
+
+            .testimony1 {
+                width: 80%;
+                
+                .testimony_name {
+                    position: absolute;
+                    bottom: 25%;
+                    right: 30%;
+                }
+    
+                .testimony_text {
+                    width: 80%;
+                    margin: 0 auto;
+                    font-size: 1.5rem;
+                    // margin: 0 15%;
+                
+                }
+            }
+        }
+
+
+        
+        
+
+        .quotes_icon {
+            color: #4aa810;
+            opacity: .3;
+            margin: 0 2%;
+        }
+        
+        .quote_right {
+            position: absolute;
+            right: 20%;
+            bottom: 10%;
+        }
+
+        
+        
+        
+    }
+}

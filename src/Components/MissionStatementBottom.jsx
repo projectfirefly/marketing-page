@@ -1,6 +1,8 @@
 import React from 'react';
 import MediaQuery from 'react-responsive';
 
+import '../Styles/marketing_mission_bottom.scss';
+
 const MissionStatementBottom = _ => {
     const mobile = 500;
     const desktop = 501;
@@ -10,7 +12,7 @@ const MissionStatementBottom = _ => {
             <MediaQuery maxWidth={mobile}>
                 <div class="more_info">
 
-                    <img src={require('./img/firefly_mobile.PNG')} alt=""/>
+                    <img src={require('../img/firefly_mobile.PNG')} alt=""/>
 
 
                 </div>
@@ -22,7 +24,7 @@ const MissionStatementBottom = _ => {
 
                     <div class="fun tags">
 
-                        <img src={require("./img/firefly_fun.PNG")} alt=""/>
+                        <img src={require("../img/firefly_fun.PNG")} alt=""/>
                         <p>
                             We create fun abd engaging coding experience for all children.
                             Firefly is an innovative, open ended coding environment that encourages experimentation.
@@ -32,7 +34,7 @@ const MissionStatementBottom = _ => {
 
                     <div class="intuitive tags">
 
-                        <img src={require("./img/firefly_intuitive.PNG")} alt=""/>
+                        <img src={require("../img/firefly_intuitive.PNG")} alt=""/>
                         <p>
                             We create intuitive learning experience that allows children to figure things out without feeling stuck.
                             The visual coding blocks invite investigation and experimentation that comes naturally to children.
@@ -41,7 +43,7 @@ const MissionStatementBottom = _ => {
 
                     <div class="engineering tags">
 
-                        <img src={require("./img/firefly_engineering.PNG")} alt=""/>
+                        <img src={require("../img/firefly_engineering.PNG")} alt=""/>
                         <p>
                             Firefly more accurately teaches children what it means to be an engineer. 
                             We want parents to feel confident that their children are learning what it means to be an engineer.
