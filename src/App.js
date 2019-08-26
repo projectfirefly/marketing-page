@@ -3,7 +3,7 @@ import { Route } from 'react-router-dom';
 
 import MarketingPage from './Components/MarketingPage';
 import TeamPage from './Components/TeamPage';
-
+import './App.css';
 
 const App = _ => {
 

@@ -1,17 +1,15 @@
-import React, { useState, useEffect } from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import Modal from '@material-ui/core/Modal';
+import React, { useState } from 'react';
+
 
 import Member from './Member';
-import NewModal from './NewModal';
-
+import '../Styles/teamPage_teamView.scss';
 
 export default _ => {
     const [state] = useState([
         {
             name: "Denise",
             displayName: "Denise Fafette",
-            roll: "Founder",
+            title: "Founder",
             link1: "",
             link2: "https://www.linkedin.com/in/denisefafette/",
             link3: "https://dribbble.com/AprilDing",
@@ -25,7 +23,7 @@ export default _ => {
         {
             name: "Charles",
             displayName: "Charles A. Rogers",
-            roll: "Software Engineer",
+            title: "Software Engineer",
             link1: "",
             link2: "https://www.linkedin.com/in/charles-a-rogers-sr-823636102/",
             link3: "https://github.com/MisterC-Rogers",
@@ -38,7 +36,7 @@ export default _ => {
         {
             name: "April",
             displayName: 'Xueyi, "April" Ding',
-            roll: "UX Designer",
+            title: "UX Designer",
             link1: "",
             link2: "http://www.linkedin.com/in/april9413ding",
             link3: "https://dribbble.com/AprilDing",
@@ -51,7 +49,7 @@ export default _ => {
         {
             name: "Alando",
             displayName: "Alando Appling",
-            roll: "Software Engineer",
+            title: "Software Engineer",
             link1: '',
             link2: "https://www.linkedin.com/in/alando-appling-30ab1371/",
             link3: "https://github.com/Landoooooo",
@@ -64,7 +62,7 @@ export default _ => {
         {
             name: "Christian",
             displayName: "Christian Allen",
-            roll: "Software Engineer",
+            title: "Software Engineer",
             link1: "",
             link2: "https://www.linkedin.com/in/christian-allen-/",
             link3: "https://github.com/christiansallen",
@@ -77,7 +75,7 @@ export default _ => {
         {
             name: "Andrew",
             displayName: "Andrew Benedict",
-            roll: "Software Engineer",
+            title: "Software Engineer",
             link1: "",
             link2: "https://www.linkedin.com/in/atbenedict/",
             link3: "https://github.com/atbenedict",
@@ -90,7 +88,7 @@ export default _ => {
         {
             name: "Aaron",
             displayName: "Aaron Harbaugh",
-            roll: "Software Engineer",
+            title: "Software Engineer",
             link1: "",
             link2: "https://www.linkedin.com/in/aaharbaugh/",
             link3: "https://github.com/aaharbaugh/",
@@ -103,7 +101,7 @@ export default _ => {
         {
             name: "Enoka",
             displayName: "Enoka Jaona",
-            roll: "Software Engineer",
+            title: "Software Engineer",
             link1: "Ejaona@gmail.com",
             link2: "https://www.linkedin.com/in/enoka-jaona",
             link3: "https://github.com/EJaona/",
@@ -116,7 +114,7 @@ export default _ => {
         {
             name: "Robert",
             displayName: "Boby Driskell",
-            roll: "Software Engineer",
+            title: "Software Engineer",
             link1: "",
             link2: "https://www.linkedin.com/in/robert-driskell-326346184/            ",
             link3: "https://github.com/BobbyAD",
@@ -128,7 +126,7 @@ export default _ => {
         {
             name: "Leslie",
             displayName: "Leslie Thompson",
-            roll: "Software Engineer",
+            title: "Software Engineer",
             link1: "",
             link2: "www.linkedin.com/in/leslie-thompson-",
             link3: "https://github.com/LCRT215",
@@ -141,18 +139,20 @@ export default _ => {
     ])
 
     
+
     
-    console.log(state[1].link2)
+
+    
 
     return(
         <div className="who_we_are">
             <img className="Who_we_are_firefly" src={require('../img/who_we_are_firefly.PNG')} alt=""/>
-            <div className="team_view">
+            <div className="team_view" >
                 
                 {state.map(member => (
                     <Member 
                         name={member.name} 
-                        roll={member.roll} 
+                        title={member.title} 
                         github={member.github} 
                         linkedIn={member.linkedIn} 
                         displayName={member.displayName}

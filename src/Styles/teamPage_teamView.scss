@@ -1,0 +1,64 @@
+.who_we_are {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        position: relative;
+
+        .Who_we_are_firefly {
+            width: 20%;
+            position: absolute;
+            top: -15.5%;
+            left: 10%;
+            @media (max-width: 700px){
+                width: 40%;
+                position: relative;
+                margin-top: -5.89%;
+               
+                
+            }
+        }
+
+        .team_view {
+    
+            height: 60%;
+            width: 95%;
+            margin: 2% auto;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+
+            .member_div {
+                width: 20%;
+            }
+
+            @media (max-width: 700px) {
+                width: 100%;
+                flex-wrap: wrap;
+                justify-content: flex-start;
+                // margin-bottom: 85%;
+
+               
+                
+                .member_div {
+                    width: 50%;
+                    height: 50%;
+
+                    .member_pics {
+                        height: 27vh;
+                        width: 100%;
+
+                    }
+                }
+                
+
+                
+            }
+
+        
+        }
+    @media (max-width: 700px) {
+        height: auto;
+        
+    }    
+}

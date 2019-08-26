@@ -4,8 +4,8 @@ import MediaQuery from 'react-responsive';
 import '../Styles/marketing_mission_bottom.scss';
 
 const MissionStatementBottom = _ => {
-    const mobile = 500;
-    const desktop = 501;
+    const mobile = 700;
+    const desktop = 701;
 
     return (
         <>

@@ -1,0 +1,33 @@
+.our_story {
+    background: #5B4EFF;
+    color: white;
+    margin-bottom: 5%;
+    position: relative;
+    padding: 3% 5%;
+
+    h1 {
+        font-size: 3rem;
+        margin-left: 20%;
+
+    }
+
+    .our_story_text {
+        width: 50%;
+
+        p {
+            font-size: 2.2rem; 
+            text-align: justify;
+            padding: 0 3%;
+            margin-top: 0;
+        }
+
+    }
+
+    img {
+        width: 7%;
+        position: absolute;
+        top: -15.4%;
+        left: 39%;
+    }
+
+}

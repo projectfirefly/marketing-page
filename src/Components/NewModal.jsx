@@ -28,9 +28,7 @@ export default ({ name, displayName, roll, icon1, icon2, icon3, link1, link2, li
 
             </div>
             <div className="bio">
-                {/* <p className="member_quote">
-                    "Great design speak for themselves"
-                </p> */}
+                
                 <p className="member_bio">{bio}</p>
             </div>
         </div>

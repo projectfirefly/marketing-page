@@ -1,0 +1,100 @@
+.testimony_container {
+    // height: 80vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+    .testimony {
+        // width: 80%;
+        display: flex;
+        align-items: center;
+        font-size: 1.5rem;
+        margin: 2% auto;
+
+        .user_info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-items: center;
+            width: 45%;
+            font-size: 1.8rem;
+
+            .user_name, .title {
+                margin: 0;
+            }
+
+            .user_name {
+                font-weight: 700;
+            }
+
+
+
+            img {
+                width: 55%;
+                margin-left: 10%;
+            }
+        }
+        @media (max-width: 700px){
+            // height: 100vh;
+            width: 100%;
+    
+        
+            flex-direction: column;
+            // padding: 5%;
+
+            img {
+                width: 50%;
+                position: initial;
+            }
+
+            .testimony_text {
+                word-spacing: 10px;
+                font-size: 1.2rem;                    
+                width: 95%;
+                padding: 3.5%;
+            }
+
+            .user_info {
+                width: 100%;
+                font-size: 2.1rem;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                
+                .user_name {
+    
+                    margin: 0;
+                   
+    
+                }
+
+                .title {
+                   margin: 0;
+                }
+
+                img {
+                    margin: 0;
+                    
+                }
+
+
+            }
+
+            .testimony_text {
+                font-size: 1.5rem;
+                margin: 0;
+                padding: 2%;
+                text-align: justify;
+            }
+
+            
+        }
+    }
+
+    @media (max-width: 700px) {
+        height: auto;
+    }
+
+
+}

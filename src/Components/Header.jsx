@@ -16,12 +16,12 @@ const Header = _ => {
                 <NavLink to="/teamPage" className="meet_team">
                     Meet Our Team
                 </NavLink>
-                <NavLink to="#" className="sign_in">
+                <a href="https://projectfirefly-production.netlify.com/signin" className="sign_in">
                     Sign In
-                </NavLink>
-                <NavLink href="#" className="sign_up">
+                </a>
+                <a href="https://projectfirefly-production.netlify.com/signup"  className="sign_up">
                     Sign Up
-                </NavLink>
+                </a>
             </nav>
         
         </header>

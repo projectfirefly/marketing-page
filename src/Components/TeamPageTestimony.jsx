@@ -1,29 +1,63 @@
-import React from 'react';
+import React, { useState } from 'react';
+import MediaQuery from 'react-responsive';
+
+import Badges from './Badges';
+
+import '../Styles/teamPage_testimony.scss';
+import TestimonyComponent from './TestimonyComponent';
 
 export default _ => {
+    const mobile = 700;
+    const desktop = 701;
+
+    const [membersInfo] = useState([
+        {
+            name: 'Ryan "Holdy" Holderfield',
+            title: 'Engineering Manager',
+            pictureName: "Holdy",
+            testimony: "This is the most well researched project we've ever seen. We expect big things from this team!"
+        }
+    ])
 
     return(
-        <div className="testimony_container">
+        
+        <>
+            <MediaQuery maxWidth={ mobile }>
+                {membersInfo.map(user => (
 
+                <div class="testimony_container">
 
-                        
-            <div className="testimony1_div">
+                    <TestimonyComponent 
+                        name={user.name}
+                        pictureName={user.pictureName}
+                        title={user.title}
+                        testimony={user.testimony}
+                    />
                     
-                <div className="testimony1" >
-                    <i className="quotes_icon quote_left fas fa-quote-left fa-3x"></i>
-                    <p className="testimony_text">
-                        
-                        This is the most well researched project we've ever seen. 
-                        We expect big things from this team!
-                    </p>
-
-                    <span className="testimony_name">&mdash;&mdash; Ryan "Holdy" Holderfield, Engineering Manager</span>
                 </div>
-                <i className="quotes_icon quote_right fas fa-quote-right fa-3x"></i>
+                ))}
+                <Badges />
+            </MediaQuery>
+            <MediaQuery minWidth={ desktop }>
+                {membersInfo.map(user => (
+
+                <div class="testimony_container">
+
+                    <TestimonyComponent 
+                        name={user.name}
+                        pictureName={user.pictureName}
+                        title={user.title}
+                        testimony={user.testimony}
+                    />
+                    
+                </div>
+                ))}
                 
-                <img src={require("../img/Holdy.PNG")} alt=""/>
-            </div>        
-        </div>
+            </MediaQuery>
+            
+        </>
+           
+
     )
 }
 

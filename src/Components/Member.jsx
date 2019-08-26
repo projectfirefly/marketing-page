@@ -1,89 +1,55 @@
 import React, { useState } from 'react';
 
-import { makeStyles } from '@material-ui/core/styles';
-import Modal from '@material-ui/core/Modal';
-
-import Member from './Member';
-import NewModal from './NewModal';
-
-function rand() {
-    return Math.round(Math.random() * 20) - 10;
-  }
-  
-  function getModalStyle() {
-    const top = 50 ;
-    const left = 50;
-  
-    return {
-      top: `${top}%`,
-      left: `${left}%`,
-      transform: `translate(-${top}%, -${left}%)`,
-    };
-  }
-
-  
-const useStyles = makeStyles(theme => ({
-    paper: {
-      position: 'absolute',
-      width: 600,
-      backgroundColor: theme.palette.background.paper,
-      border: '5px solid #4aa810',
-      boxShadow: theme.shadows[5],
-    },
-  }));
 
 
-export default ({ name, displayName, roll, icon1, icon2, icon3, link1, link2, link3, bio }) => {
+import IconContainer from './IconContainer';
+
+import '../Styles/member_styles.scss';
+
+
+
+export default ({ name, displayName, title, icon1, icon2, icon3, link1, link2, link3 }) => {
     
-
-    const classes = useStyles();
-
-    const [modalStyle] = useState(getModalStyle);
-    const [open, setOpen] = useState(false);
+    const [picState, setPicState] = useState('babyPic')
 
    
-
-    const handleOpen = _ => {
-        setOpen(true)
+    const handleMouseIn = _ => {
+      setPicState('profilePic')
     }
-    const handleClose = _ => {
-        setOpen(false)
+    const handleMouseOut = _ => {
+      setPicState('babyPic')
     }
-
 
     return(
-        <>
-            <div className="member_div" onClick={handleOpen} >
-                <img className="baby_pics" src={require(`../img/${name}_babyPic.PNG`)} alt=""/>
-                <h1 className="name">{displayName}</h1>
-                <p className="roll">{roll}</p>
+      <>
+        <div className="member_div" onMouseOver={handleMouseIn} onMouseOut={handleMouseOut} >
+          <div className="overlay"></div>
+          <img className="member_pics" src={require(`../img/${name}_${picState}.PNG`)} alt="" />
+
+          <div className="member_info">
+
+            <div>
+              <h1 className="name">{displayName}</h1>
+              <p className="title">{title}</p>
             </div>
 
-            <Modal
-                    aria-labelledby="simple-modal-title"
-                    aria-describedby="simple-modal-description"
-                    open={open}
-                    onClose={handleClose}
-                >
-                    <div style={modalStyle} className={classes.paper}>
-                   
-                <NewModal
-                 name={name}
-                 displayName={displayName}
-                 roll={roll}
-                 icon1={icon1}
-                 icon2={icon2}
-                 icon3={icon3}
-                 link1={link1}
-                 link2={link2}
-                 link3={link3}
-                 bio={bio}
-                />
-                    </div>
-                </Modal>
-        </>
-    )
+            <IconContainer
+              name={name}
+
+              link1={link1}
+              link2={link2}
+              link3={link3}
+
+              icon1={icon1}
+              icon2={icon2}
+              icon3={icon3}
+            />
+          </div>
+        </div>
+
+    </>
+  )
+}
     
 
     
-}

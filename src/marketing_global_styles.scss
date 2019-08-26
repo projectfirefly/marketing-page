@@ -1,5 +1,5 @@
 * {
-    line-height: 1.5;
+    line-height: 1.2;
     box-sizing: border-box;
     // font-family: 'Nunito', sans-serif;
    
@@ -19,8 +19,12 @@ body{
 }
 
 .container {
-    width: 100%;
+    max-width: 1600px;
+
     
+    .test_div {
+        padding: 5%;
+    }
     
 }
 
