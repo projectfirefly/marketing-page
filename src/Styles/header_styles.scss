@@ -2,7 +2,7 @@
     // background: lightgray;
     display: flex;
     justify-content: space-between; 
-    padding: 1.5%;
+    padding-top: 1.5%;
     position: sticky;
     top: 0;
     opacity: .95;
@@ -13,31 +13,38 @@
 
     .logo img {
         height: auto;
-        width: 120%;
+        width: 100%;
     }
 
     .nav_bar {
         // border: 1px solid red;
-        width: 39%;
+        width: 47%;
         display: flex;
         align-items: center;
         justify-content: space-between;
 
         a {
-            font-size: 1.5rem;
-            font-weight: bold;
-            opacity: .5;
+            font-size: 1rem;
+            font-weight: 900;
+            opacity: .85;
 
             &:hover {
                 opacity: 1;
             }
         }
 
-        .active {
-            opacity: 1;
-            text-decoration: underline;
+        .sign_in{
+            border: 1px solid #5B4EFF;
+            padding: 5.5px 15.5px;
+            border-radius: 5px;
         }
 
+        .sign_up{
+            background-color: #5B4EFF;
+            padding: 5.5px 15.5px;
+            border-radius: 5px;
+            color: white;
+        }
         
     }
 }
