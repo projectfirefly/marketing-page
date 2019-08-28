@@ -146,7 +146,6 @@ export default _ => {
 
     return(
         <div className="who_we_are">
-            <img className="Who_we_are_firefly" src={require('../img/who_we_are_firefly.PNG')} alt=""/>
             <div className="team_view" >
                 
                 {state.map(member => (

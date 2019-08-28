@@ -24,6 +24,10 @@ body{
     
     .test_div {
         padding: 5%;
+
+        @media (max-width: 700px) {
+            padding: 0;
+        }
     }
     
 }

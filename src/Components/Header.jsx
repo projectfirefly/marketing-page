@@ -13,8 +13,11 @@ const Header = _ => {
             </NavLink>
             
             <nav className="nav_bar">
-                <NavLink to="/teamPage" className="meet_team">
+                <NavLink activeClassName="active" to="/teamPage" className="meet_team">
                     Meet Our Team
+                </NavLink>
+                <NavLink activeClassName="active" to="/tutorial" className="meet_team">
+                    How Firefly Works
                 </NavLink>
                 <a href="https://projectfirefly-production.netlify.com/signin" className="sign_in">
                     Sign In

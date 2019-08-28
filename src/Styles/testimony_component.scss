@@ -48,7 +48,7 @@
             }
 
             .testimony_text {
-                word-spacing: 10px;
+                // word-spacing: 10px;
                 font-size: 1.2rem;                    
                 width: 95%;
                 padding: 3.5%;
@@ -65,7 +65,8 @@
                 .user_name {
     
                     margin: 0;
-                   
+                   font-weight: 700;
+                   text-align: center;
     
                 }
 
@@ -82,9 +83,9 @@
             }
 
             .testimony_text {
-                font-size: 1.5rem;
+                font-size: 1.2rem;
                 margin: 0;
-                padding: 2%;
+       
                 text-align: justify;
             }
 

@@ -44,7 +44,7 @@ const HowItWorks = _ => {
                             </p>
                         </div>
                     </div>
-                    <img className="middle_page_firefly" src={require("../img/middle_page_firefly.PNG")}  alt=""/>
+                    <img className="middle_page_firefly" src={require("../img/FireFly_glasses.svg")}  alt=""/>
                 </div>
             </MediaQuery>
             

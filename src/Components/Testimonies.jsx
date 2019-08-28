@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
 import MediaQuery from 'react-responsive';
+
 import Badges from './Badges';
+import TestimonyButton from './TestimonyButton';
+import TestimonyComponent from './TestimonyComponent';
 
 import '../Styles/marketing_testimony.scss';
-import '../Styles/marketing_footer.scss'
-import TestimonyComponent from './TestimonyComponent';
 const Testimonies = _ => {
 
-    const [userState, setUserState] = useState([
+    const [userState] = useState([
         {
             name: "Jennifer Smalls",
             pictureName: "Mom",
@@ -64,10 +65,7 @@ const Testimonies = _ => {
                     
                 </div>
                 ))}
-                <div className="testimony_button_div">
-                    <img src={require('../img/TestimonialFirefly.PNG')} alt=""/>
-                    <button className="testimonial_button">JOIN OUR ADVENTURE</button>
-                </div>
+                <TestimonyButton />
             </MediaQuery>
             
         </>

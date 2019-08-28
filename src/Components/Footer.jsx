@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-import '../Styles/marketing_footer.scss';
+import '../Styles/footer.scss';
 const Footer = _ => {
     
 
@@ -12,44 +12,44 @@ const Footer = _ => {
             <footer>
                 <nav >
                     <div className="nav_item_div">
-                        <NavLink to="/teamPage" class="meet_team">
+                        <NavLink to="/teamPage" className="nav_text">
                             Meet Our Team
                         </NavLink>
-                        <a href="#" class="meet_team">
+                        <a href="#" className="nav_text">
                             Learn More
                         </a>
-                        <a href="#" class="meet_team">
+                        <a href="#" className="nav_text">
                             Contact Us
                         </a>
                     </div>
 
                     <div className="nav_item_div">
-                        <a href="#" class="sign_in">
+                        <a href="#" className="nav_text">
                             Resources
                         </a>
-                        <a href="#" class="sign_in">
+                        <a href="#" className="nav_text">
                             Privacy
                         </a>
-                        <a href="#" class="sign_in">
+                        <a href="#" className="nav_text">
                             Terms
                         </a>
                     </div>
 
                     <div className="nav_item_div">
-                        <a href="#" class="sign_up">
+                        <a href="#" className="nav_text">
                             Community
                         </a>
-                        <a href="#" class="sign_up">
+                        <a href="#" className="nav_text">
                             Twitter
                         </a>
-                        <a href="#" class="sign_up">
+                        <a href="#" className="nav_text">
                             Instagram
                         </a>
                     </div>
                 </nav>
         
 
-                <NavLink to="/" class="footer_logo">
+                <NavLink to="/" className="footer_logo">
                     <img src={require("../img/firefly_footer_logo.PNG")} alt=""/>
                     &copy;Firefly 2019
                 </NavLink>

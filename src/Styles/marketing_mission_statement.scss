@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    // padding: 5%;
+    padding-top: 8%;
 
 
     .firefly_hero_img {
@@ -31,21 +31,28 @@
             // margin: 23% 0 0 0;
             font-size: 3rem;
         }
-    }
 
-    .button_badges_container {
-        text-align: center;
-
-        .badges {
-            
-            .ios {
-                margin-left: 24.5%;
-            }
+        .little_hands {
+            color: #6BB83B;
         }
     }
+
+    // .button_badges_container {
+    //     text-align: center;
+
+    //     .badges {
+            
+    //         .ios {
+    //             margin-left: 24.5%;
+    //             widt
+    //         }
+    //     }
+    // }
+
+    
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
     .mission_statement {
         flex-direction: column;
 
@@ -69,10 +76,12 @@
                 margin: 10% 0 0 0;
             }
 
-            .little_hands {
-                font-size: 1.89rem;
-            }
         }
+    }
+    .little_hands {
+        color: #6BB83B;
+        font-size: 1.5rem;
+        text-align: center;
     }
     
 }

@@ -58,11 +58,15 @@ footer {
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
+                
+                .nav_text {
+                    font-size: 1.2rem;
+                }
             }
         }
         
         .footer_logo {
-            width: 23%;
+            width: 30%;
             align-items: center;
 
             img {

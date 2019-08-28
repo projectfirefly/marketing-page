@@ -5,8 +5,8 @@ import Badges from './Badges';
 import '../Styles/marketing_mission_statement.scss';
 
 const MissionStatement = () => {
-    const mobile = 500;
-    const desktop = 501;
+    const mobile = 700;
+    const desktop = 701;
     
     
     return (
@@ -25,17 +25,12 @@ const MissionStatement = () => {
                             Firefly is redefine how children learn to program by creating
                             playground for learning at the intersection of art, design, and technology.
                         </p>
-                        <Badges />
-                        <h1 className="little_hands">
-                                Little Hands Make Big Ideas!
-                        </h1>
                     </div>
-                    
-                        
-                    
-                    
-
                 </div>
+                <Badges />
+                <h1 className="little_hands">
+                        Little Hands Make Big Ideas!
+                </h1>
            
             </MediaQuery>
 

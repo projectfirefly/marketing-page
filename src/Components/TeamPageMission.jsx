@@ -18,13 +18,17 @@ export default _ => {
         <MediaQuery maxWidth={mobile}>
             <div className="team_mission_statement">
                 <div className="statement">
-                    <h1>Our Mission</h1>
+                    <h1>Our Team</h1>
                     <img className="teamPage_main_pic" src={require('../img/Mobile_teamPage_mainPic.PNG')} alt=""/>
 
                     <p>
-                        We are redefining how children learn to program by creating
-                        playful engineering apps at  the intersection of art, design,
-                        and technology.
+                    Each person found their way on this project through a combination
+                    of hustle and serendipity. We have a combination of expertise in education,
+                    Fine Art, and Science build better apps for children. 
+                    As a team, we plan, strategize and imagine a new experience for 
+                    children learning to code. Our diversity is our strength.
+                    We represent the best of design and engineering for fun, playful 
+                    and educational adventure for children.
                     </p>
                 </div>
                 <Badges />
@@ -37,11 +41,15 @@ export default _ => {
         <MediaQuery minWidth={desktop}>
             <div className="team_mission_statement">
                 <div className="statement">
-                    <h1>Our Mission</h1>
+                    <h1>Our Team</h1>
                     <p>
-                        We give children wings by creating playful engineering apps.
-                        Firefly is redefining how children learn to program by creating a
-                        playground for learning at the intersection of art, design and technology.
+                    Each person found their way on this project through a combination
+                    of hustle and serendipity. We have a combination of expertise in education,
+                    Fine Art, and Science build better apps for children. 
+                    As a team, we plan, strategize and imagine a new experience for 
+                    children learning to code. Our diversity is our strength.
+                    We represent the best of design and engineering for fun, playful 
+                    and educational adventure for children.
                     </p>
                     <Badges />
                 </div>

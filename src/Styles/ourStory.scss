@@ -1,33 +1,35 @@
 .our_story {
     background: #5B4EFF;
     color: white;
-    margin-bottom: 5%;
     position: relative;
-    padding: 3% 5%;
+    padding: 3% 0;
+
 
     h1 {
         font-size: 3rem;
-        margin-left: 20%;
 
     }
 
     .our_story_text {
-        width: 50%;
+        width: 47%;
+        margin:0 auto;
+        text-align: center;
 
         p {
             font-size: 2.2rem; 
-            text-align: justify;
-            padding: 0 3%;
+            text-align: center;
+            // padding: 0 3%;
             margin-top: 0;
         }
 
     }
 
-    img {
-        width: 7%;
+    .fireFly_hat {
+        width: 9%;
         position: absolute;
-        top: -15.4%;
-        left: 39%;
+        top: 23%;
+        right: 14%;
+        transform: rotate(-10deg)
     }
 
 }
