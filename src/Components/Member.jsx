@@ -11,10 +11,11 @@ import '../Styles/member_styles.scss';
 export default ({ name, displayName, title, icon1, icon2, icon3, link1, link2, link3 }) => {
     
     const [picState, setPicState] = useState('babyPic')
-
-   
+    const useForceUpdate = _ => useState()[1];
+    const forceUpdate = useForceUpdate()
     const handleMouseIn = _ => {
       setPicState('profilePic')
+      forceUpdate();
     }
     const handleMouseOut = _ => {
       setPicState('babyPic')

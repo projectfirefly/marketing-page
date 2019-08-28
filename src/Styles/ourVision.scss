@@ -1,7 +1,6 @@
 
 
     .content_group {
-        border: 3px solid black;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -10,7 +9,6 @@
             display: flex;
             justify-content: center;
             margin: 3% auto;
-            border: 1px solid goldenrod;
             width: 90%;
 
             img {
@@ -19,7 +17,6 @@
             }
 
             div {
-                border: 1px solid darkblue;
                 width: 50%;
 
                 h1 {
