@@ -11,7 +11,7 @@ const HowItWorks = _ => {
         <>
             <MediaQuery maxWidth={mobile}>
                 <div className="how_it_works">
-                    <h2>How it works</h2>
+                    <h2>How it Works</h2>
                     <div className="how_it_works_des">
                         <video width="630" height="400" controls>
                                 <source src="movie.mp4" type="video/mp4"/>
@@ -23,7 +23,7 @@ const HowItWorks = _ => {
             </MediaQuery>
             <MediaQuery minWidth={desktop}>
                 <div className="how_it_works">
-                    <h2>How it works</h2>
+                    <h2>How it Works</h2>
                     <div className="how_it_works_des">
                         <video width="630" height="400" controls>
                                 <source src="movie.mp4" type="video/mp4"/>
