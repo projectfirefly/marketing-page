@@ -13,19 +13,19 @@ const Testimonies = _ => {
             name: "Jennifer Smalls",
             pictureName: "Mom",
             title: "Preschool Teacher",
-            testimony: "I love how easy it is to communicate with parents. I love that it is now used for our classroom portfolios and parents can have access to their child's learning. Dojo is easy to set up and very user friendly for parents!!! I don't think i cold survive without Dojo!!!"
+            testimony: "I love how easy it is to communicate with parents. I love that it is now used for our classroom portfolios and parents can have access to their child's learning. Dojo is easy to set up and very user friendly for parents!!! I don't think I could survive without Dojo!!!"
         },
         {
             name: "Jeff Smalls",
             pictureName: "Dad",
             title: "Real World Dad",
-            testimony: "I love how easy it is to communicate with parents. I love that it is now used for our classroom portfolios and parents can have access to their child's learning. Dojo is easy to set up and very user friendly for parents!!! I don't think i cold survive without Dojo!!!"
+            testimony: "I love how easy it is to communicate with parents. I love that it is now used for our classroom portfolios and parents can have access to their child's learning. Dojo is easy to set up and very user friendly for parents!!! I don't think I could survive without Dojo!!!"
         },
         {
             name: "Sarah Smalls",
             pictureName: "Girl",
             title: "Real World Teen",
-            testimony: "I love how easy it is to communicate with parents. I love that it is now used for our classroom portfolios and parents can have access to their child's learning. Dojo is easy to set up and very user friendly for parents!!! I don't think i cold survive without Dojo!!!"
+            testimony: "I love how easy it is to communicate with parents. I love that it is now used for our classroom portfolios and parents can have access to their child's learning. Dojo is easy to set up and very user friendly for parents!!! I don't think i could survive without Dojo!!!"
         }
     ])
 

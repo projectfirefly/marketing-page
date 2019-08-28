@@ -26,7 +26,7 @@ const MissionStatementBottom = _ => {
 
                         <img src={require("../img/firefly_fun.PNG")} alt=""/>
                         <p>
-                            We create fun abd engaging coding experience for all children.
+                            We create fun and engaging coding experience for all children.
                             Firefly is an innovative, open ended coding environment that encourages experimentation.
                             We understand that children learn through play!
                         </p>
