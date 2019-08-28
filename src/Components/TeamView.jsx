@@ -162,8 +162,7 @@ export default _ => {
                         link2={member.link2}
                         link3={member.link3}
                         bio={member.bio}
-                        />
-                        
+                        />        
                 ))
                 }
                 

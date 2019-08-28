@@ -9,7 +9,7 @@ export default _ => {
             <div className="content_group">
 
                 <div className="content1 content">
-                    <img src={require('../img/contentGroup1_img.PNG')} alt=""/>
+                    <img src={require('../img/contentGroup1_img.svg')} alt=""/>
                     <div>
                         <h1>We understand how children learn</h1>
                         <p>
@@ -28,7 +28,7 @@ export default _ => {
                 </div>
 
                 <div className="content2 content">
-                    <img src={require('../img/contentGroup2_img.PNG')} alt=""/>
+                    <img src={require('../img/contentGroup2_img.svg')} alt=""/>
                     <div>
                         <h1>We value art, creativity and play</h1>
                         <p>
@@ -47,7 +47,7 @@ export default _ => {
                 </div>
 
                 <div className="content3 content">
-                    <img src={require('../img/contentGroup3_img.PNG')} alt=""/>
+                    <img src={require('../img/contentGroup3_img.svg')} alt=""/>
                     <div>
                         <h1>We believe everyone is an engineer at hart</h1>
                         <p>
