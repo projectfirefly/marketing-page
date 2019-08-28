@@ -32,4 +32,19 @@
         transform: rotate(-10deg)
     }
 
+    @media (max-width: 700px) {
+        .our_story_text {
+            width: 100%;
+            padding: 2%;
+            h1 {
+                font-size: 2rem;
+                color: white;
+            }
+
+            p {
+                font-size: 1.2rem;
+            }
+        }
+    }
+
 }

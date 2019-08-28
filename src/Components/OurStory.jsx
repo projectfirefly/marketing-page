@@ -8,7 +8,7 @@ export default _ => {
     return(
         <div className="our_story">
             <div className="our_story_text">
-            <h1>Our Team</h1>
+            <h1>Our Vision</h1>
 
               <p>
                   We are reimagining how children learn to code by 
