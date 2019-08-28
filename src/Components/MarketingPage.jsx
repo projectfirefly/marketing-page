@@ -17,10 +17,7 @@ export default _ => {
       <MissionStatement /> 
       <MissionStatementBottom />
       <HowItWorks />
-      <div className="test_div">
-
-        <Testimonies />
-      </div>
+      <Testimonies />
       <Footer /> 
     </div>
   )
