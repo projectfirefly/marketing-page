@@ -33,8 +33,10 @@ export default _ => {
                 </div>
                 <Badges />
                 <h1 className="little_hands">Little Hands Make Big Ideas!</h1>
-                <MissionStatementBottom />
-                <HowItWorks />
+                {/* <MissionStatementBottom />
+                <HowItWorks /> */}
+                <OurStory />
+
             </div>
 
         </MediaQuery>
