@@ -1,15 +1,16 @@
 .header {
     // background: lightgray;
     display: flex;
+
     justify-content: space-between; 
-    padding-top: 1.5%;
-    position: sticky;
+    position: fixed;
     top: 0;
-    opacity: .95;
+
+    width: 1000px;
     z-index: 4;
-    width: 100%;
     background: white;
-    margin: 0;
+    opacity: .95;
+    padding-top: 1.5%;
 
     .logo img {
         height: auto;

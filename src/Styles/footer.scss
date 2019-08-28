@@ -1,77 +1,72 @@
 footer {
-    background-color: rgb(238, 238, 238);
+  background-color: rgb(238, 238, 238);
+  margin: 0 auto;
+
+  nav {
+    width: 1000px;
     margin: 0 auto;
-    width: 120vw;
-    margin-left: -50%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 25px;
 
-    nav {
-        width: 1000px;
-        margin: 0 auto;
-        display: flex;
-        justify-content: flex-start;
-
-        .nav_item_div {
-            display: flex;
-            flex-direction: column;
-            
-            a {
-                color: black;
-                height: 10%;
-                font-size: 1.5rem;
-                margin-bottom: 10%;
-            }
-        }
-
+    .nav_item_div {
+      display: flex;
+      flex-direction: column;
+      padding: 25px;
+      
+      a {
+        color: black;
+        font-size: 1.2rem;
+        padding: 10px;
+      }
     }
+  }
 
-    .footer_logo {
-        width: 48%;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        justify-content: flex-end;
-        font-size: 1.1rem;
-        margin-bottom: .5%;
+  .footer_logo {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-size: 1.1rem;
+    margin-bottom: 0.5%;
 
-        img {
-            width: 10%;
-            justify-items: flex-end;
-        }
+    img {
+      width: 10%;
+      justify-items: flex-end;
     }
+  }
 }
 
 @media (max-width: 700px) {
-    footer {
+  footer {
+    flex-direction: column;
+    align-items: center;
+    padding: 5% 0;
+    justify-content: space-between;
+    margin-top: 10%;
+
+    nav {
+      width: 100%;
+
+      .nav_item_div {
+        display: flex;
         flex-direction: column;
-        align-items: center;
-        padding: 5% 0;
         justify-content: space-between;
-        margin-top: 10%;
 
-        nav {
-            width: 100%;
-
-            .nav_item_div {
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
-                
-                .nav_text {
-                    font-size: 1.2rem;
-                }
-            }
+        .nav_text {
+          font-size: 1.2rem;
         }
-        
-        .footer_logo {
-            width: 30%;
-            align-items: center;
-
-            img {
-                width: 60%;
-            }
-            
-        }
+      }
     }
-  
-    
+
+    .footer_logo {
+      width: 30%;
+      align-items: center;
+
+      img {
+        width: 60%;
+      }
+    }
+  }
 }
