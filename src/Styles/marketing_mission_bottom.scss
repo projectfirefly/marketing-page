@@ -1,18 +1,35 @@
-.more_info {
-    width: 87%;
-    margin: 3% auto;
-    // border: 1px solid black;
-    display: flex;
-    justify-content: space-between;
-    font-size: 1.1rem;
+.statement-bottom{
 
-    .tags {
-        // border: 1px solid red;
-        // margin: 1%;
-        width: 27%;
-        font-size: 1.5rem;
+    margin-top: 50px;
+
+    .little_hands {
+        color: #4AA810;
+        font-size: 1.8rem;
+    }
+    
+    .more_info {
+        width: 100%;
+        // border: 1px solid black;
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.1rem;
+    
+
+        .tags {
+            // border: 1px solid red;
+            // margin: 1%;
+            width: 27%;
+            font-size: 1.1rem;
+
+            p {
+                line-height: 1.5rem;
+                margin-top: 0;
+            }
+        }
     }
 }
+
+
 
 @media (max-width: 700px) {
     .more_info {

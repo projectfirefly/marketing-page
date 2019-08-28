@@ -52,14 +52,15 @@ const MissionStatement = () => {
 
             <Badges />
 
-            <h1 className="little_hands">Little Hands Make Big Ideas!</h1>
+           
           </div>
-
-          <img
-            className="firefly_hero_img"
-            src={require("../img/FireflyHeroPhoto.png")}
-            alt=""
-          />
+          <div className="image">
+            <img
+              className="firefly_hero_img"
+              src={require("../img/FireflyHeroPhoto.png")}
+              alt=""
+            />
+          </div>
         </div>
       </MediaQuery>
     </>

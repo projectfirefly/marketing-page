@@ -4,36 +4,37 @@
     margin: 0 auto;
     padding-top: 8%;
 
-
-    .firefly_hero_img {
-        width: 53%;
-        height:65vh;
+    .image{
+        width: 55%;
+        
+        .firefly_hero_img{
+            width: 100%;
+            margin: 10px;
+        }
     }
 
-    .text {
 
+    .text {
         width: 45%;
-        font-size: 1.95rem;
         display: flex;
         flex-direction: column;
         word-spacing: 2px;
+        margin-right: 10px;
 
         p {
+            font-size: 1.1rem;
             width: 95%;
             text-align: justify;
-            // padding: 1%;
+            line-height: 1.5rem;
             margin-top: 0;
         }
 
         h1 {
-            color: #6BB83B;
-            // margin: 23% 0 0 0;
-            font-size: 3rem;
+            color: #4AA810;
+            font-size: 1.8rem;
         }
 
-        .little_hands {
-            color: #6BB83B;
-        }
+
     }
     
 }
@@ -65,7 +66,7 @@
         }
     }
     .little_hands {
-        color: #6BB83B;
+        color: #4AA810;
         font-size: 1.5rem;
         text-align: center;
     }

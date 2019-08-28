@@ -1,73 +1,78 @@
-.how_it_works {
-    background: #5B4EFF;
-    padding-bottom: 5%; 
+.background-container {
+  margin-top: 55px;
+  background: #5b4eff;
+  width: 120vw;
+  margin-left: -50%;
+
+  .how_it_works {
     margin: 0 auto;
+    height: 100%;
+    width: 1000px;
     display: flex;
     flex-direction: column;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     position: relative;
+    padding-bottom: 79px;
 
     .middle_page_firefly {
-        width: 10%;
-        position: absolute;
-        right: 5%;
-        bottom: -10.1%;
-    
+      width: 10%;
+      position: absolute;
+      right: 5%;
+      bottom: -10.1%;
     }
+
     h2 {
-        align-self: center;
-        font-size: 3rem;
-        color: white;
-        
+        margin: 35px 0;
+      align-self: center;
+      font-size: 1.7rem;
+      color: white;
+      letter-spacing: 2px;
     }
 
     .how_it_works_des {
-        // border: 1px solid blue;
-        display: flex;
-        justify-content: center;
-        width: 87%;
-        padding-bottom: 3%;
-        margin: 0 auto;
+      // border: 1px solid blue;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      padding-bottom: 3%;
+      margin: 0 auto;
 
-        
+      .video {
+        border-radius: 10px;
+        outline: none;
+      }
 
-        .how_it_works_text {
-            width: 50%;
-            padding-left: 10%;
-         
-            // border: 1px solid red;
+      .how_it_works_text {
+        width: 50%;
+        padding-left: 5%;
+        // border: 1px solid red;
 
-            p {
-                margin: 0;
-                margin-bottom: 5%;
-                text-align: justify;
-            }
+        p {
+          line-height: 1.6rem;
+          margin: 0;
+          margin-bottom: 5%;
+          text-align: justify;
         }
+      }
     }
 
     img {
-        width: 10%;
-        position: absolute;
-        bottom: -9.599%;
-        right: 5%;
-        z-index: 3;
+      width: 10%;
+      position: absolute;
+      right: 5%;
+      z-index: 3;
+      transform: rotate(-7git deg);
     }
-    
-
+  }
 }
 
 @media (max-width: 500px) {
-
-    .how_it_works {
-
-        .how_it_works_des {
-
-            .how_it_works_text {
-                display: none;
-            }
-        }
+  .how_it_works {
+    .how_it_works_des {
+      .how_it_works_text {
+        display: none;
+      }
     }
-    
+  }
 }
-
