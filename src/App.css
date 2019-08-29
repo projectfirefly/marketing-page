@@ -5,3 +5,7 @@
     margin: 0 auto;
     overflow-x: hidden;
 }
+
+/* video::-webkit-media-controls-panel {
+    background-image: linear-gradient(transparent, transparent) !important;
+} */
