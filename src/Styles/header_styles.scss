@@ -23,10 +23,12 @@
         align-items: center;
         justify-content: space-between;
 
-        a {
+        a, p {
             font-size: 1.5rem;
             font-weight: bold;
             opacity: .5;
+            color: blue;
+            cursor: pointer;
 
             &:hover {
                 opacity: 1;
