@@ -23,6 +23,7 @@ export default _ => {
     return(
         
         <>
+        
             <MediaQuery maxWidth={ mobile }>
                 {membersInfo.map(user => (
 
@@ -39,7 +40,9 @@ export default _ => {
                 ))}
                 <Badges />
             </MediaQuery>
+            
             <MediaQuery minWidth={ desktop }>
+            <div className="all-testimonies">
                 {membersInfo.map(user => (
 
                 <div class="testimony_container">
@@ -53,6 +56,7 @@ export default _ => {
                     
                 </div>
                 ))}
+                </div>
                 <TestimonyButton />
             </MediaQuery>
             
