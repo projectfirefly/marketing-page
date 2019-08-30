@@ -3,6 +3,8 @@ import React from 'react';
 import '../Styles/button_badges.scss';
 export default _ => {
 
+    console.log(1+1);
+
     return(
         <div className="button_badges_container">
             <button className='button'> JOIN OUR ADVENTURE</button>
