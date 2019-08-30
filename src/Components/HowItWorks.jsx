@@ -35,7 +35,7 @@ const HowItWorks = _ => {
                 <p>
                   Firefly is designed for little hands with big ideas. Our
                   innovative learning system is designed with children in mind.
-                  Our coding blocks are designed for 4-6 year-old choldren to
+                  Our coding blocks are designed for 4-6 year-old children to
                   easily move the blocks with their fingers!
                 </p>
                 <p>
