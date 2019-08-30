@@ -34,11 +34,13 @@ export default ({
         onMouseOut={handleMouseOut}
       >
         <div className="overlay"></div>
-        <img
-          className="member_pics"
-          src={require(`../img/${name}_${picState}.PNG`)}
-          alt=""
-        />
+        <div className="image">
+          <img
+            className="member_pics"
+            src={require(`../img/${name}_${picState}.PNG`)}
+            alt=""
+          />
+        </div>
 
         <div className="member_info">
           <div>
