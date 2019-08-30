@@ -13,7 +13,7 @@ export default _ => {
 
     const [membersInfo] = useState([
         {
-            name: 'Ryan "Holdy" Holdaway',
+            name: 'Ryan Holdaway',
             title: 'Engineering Manager',
             pictureName: "Holdy",
             testimony: "This is the most well researched project we've ever seen. We expect big things from this team!"

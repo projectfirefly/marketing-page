@@ -2,10 +2,9 @@
   width: 20%;
   height: 200px;
   position: relative;
-  border: 1px solid white;
-
+  overflow: hidden;
+  
   &:hover {
-
     .modal_icon_container {
       bottom: 0;
       visibility: visible;
@@ -23,81 +22,61 @@
         visibility: visible;
         margin: 0;
       }
-
-      .title {
-        bottom: 40%;
-      }
-
-      .name {
-        bottom: 60%;
-      }
     }
-
-    // .member_pics {
-    //     margin-bottom: 5%;
-    // }
 
     .overlay {
       z-index: 1;
       width: 100%;
       height: 100%;
       background: gray;
-      border: 1px solid white;
+
       position: absolute;
       opacity: 0.55;
     }
   }
+  .image {
+    .member_pics {
+      z-index: 0;
+      height: 110%;
+      width: 110%;
 
-  .member_pics {
-    z-index: 0;
-    height: 100%;
-    width: 100%;
+      overflow: hidden;
 
-    @media (max-width: 700px) {
-      width: 100%;
-      height: auto;
-    }
+      @media (max-width: 700px) {
+        width: 100%;
+        height: auto;
+      }
 
-    &:hover {
-      opacity: 0.1;
+      &:hover {
+        opacity: 0.1;
+      }
     }
   }
 
   .member_info {
     text-align: center;
     position: absolute;
-    bottom: 0;
+    bottom: 25px;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 50%;
     z-index: 3;
     // background: transparent;
 
     .name,
     .title {
       visibility: hidden;
-      position: absolute;
       color: white;
       text-shadow: 1px 2px 5px black;
     }
 
-    //add animation to swipe in icons on hover.
-    //adjust mobile to display one picture full screen {brady bunch}
-
     .name {
-      font-size: 1.6rem;
-      bottom: 50%;
-      left: 20%;
-      // position: absolute;
+      font-size: 1.1rem;
     }
 
     .title {
-      width: 80%;
-      font-size: 1.3rem;
-      bottom: 27%;
-      left: 10%;
+      font-size: 1rem;
     }
   }
 
