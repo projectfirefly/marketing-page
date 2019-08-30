@@ -21,7 +21,7 @@
     }
 
     h2 {
-        margin: 35px 0;
+      margin: 35px 0;
       align-self: center;
       font-size: 1.7rem;
       color: white;
@@ -64,12 +64,8 @@
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 510px) {
   .how_it_works {
-    .how_it_works_des {
-      .how_it_works_text {
-        display: none;
-      }
-    }
+    display: none;
   }
 }
