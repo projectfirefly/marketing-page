@@ -12,16 +12,17 @@ export default _ => {
         }
     ])
     return(
-        <div class="testimony_container">
-
-        {state.map(member => (
-            <TestimonyComponent 
-                name={member.name}
-                pictureName={member.pictureName}
-                title={member.title}
-                testimony={member.testimony}
-            />
-        ))}
+        <div class="all-testimonies">
+          {state.map(user => (
+            <div class="testimony_container">
+              <TestimonyComponent
+                name={user.name}
+                pictureName={user.pictureName}
+                title={user.title}
+                testimony={user.testimony}
+              />
+            </div>
+          ))}
         </div>
     )
 }

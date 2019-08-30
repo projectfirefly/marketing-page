@@ -9,7 +9,6 @@
     width: 1000px;
     z-index: 4;
     background: white;
-    opacity: .95;
     padding-top: 1.5%;
 
     .logo img {
@@ -24,23 +23,19 @@
         align-items: center;
         justify-content: space-between;
 
-<<<<<<< HEAD
-        a, p {
-            font-size: 1.5rem;
-            font-weight: bold;
-            opacity: .5;
-            color: blue;
-            cursor: pointer;
-=======
         a {
             font-size: 1rem;
             font-weight: 900;
             opacity: .85;
->>>>>>> d9240aea27e6882cdebacc1b0cccc25d547780c1
 
             &:hover {
                 opacity: 1;
             }
+        }
+
+        .active {
+            opacity: 1;
+            text-decoration: underline;
         }
 
         .sign_in{
