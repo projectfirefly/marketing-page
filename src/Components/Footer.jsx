@@ -45,7 +45,7 @@ const Footer = _ => {
         </nav>
 
         <NavLink to="/" className="footer_logo">
-          <img src={require("../img/firefly_footer_logo.PNG")} alt="" />
+          <img src={require("../img/Logo.png")} alt="" />
           &copy;Firefly 2019
         </NavLink>
       </footer>
