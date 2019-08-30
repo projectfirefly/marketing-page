@@ -37,17 +37,17 @@ const Testimonies = _ => {
   return (
     <>
       <MediaQuery maxWidth={Mobile}>
-      <div class="all-testimonies">
-        {userState.map(user => (
-          <div class="testimony_container">
-            <TestimonyComponent
-              name={user.name}
-              pictureName={user.pictureName}
-              title={user.title}
-              testimony={user.testimony}
-            />
-          </div>
-        ))}
+        <div class="all-testimonies">
+          {userState.map(user => (
+            <div class="testimony_container">
+              <TestimonyComponent
+                name={user.name}
+                pictureName={user.pictureName}
+                title={user.title}
+                testimony={user.testimony}
+              />
+            </div>
+          ))}
         </div>
         <Badges />
       </MediaQuery>
