@@ -1,8 +1,13 @@
 import React from "react";
 import MediaQuery from "react-responsive";
 
+
+
 import Badges from "./Badges";
 import "../Styles/marketing_mission_statement.scss";
+import TestCarousel from "./TestCarousel";
+
+
 
 const MissionStatement = () => {
   const mobile = 700;
@@ -21,7 +26,6 @@ const MissionStatement = () => {
             />
 
             <p>
-              {" "}
               We give children wings by creating playful engineering apps.
               Firefly is redefine how children learn to program by creating
               playground for learning at the intersection of art, design, and
@@ -55,11 +59,12 @@ const MissionStatement = () => {
            
           </div>
           <div className="image">
-            <img
+            <TestCarousel />
+            {/* <img
               className="firefly_hero_img"
               src={require("../img/FireflyHeroPhoto.png")}
               alt=""
-            />
+            /> */}
           </div>
         </div>
       </MediaQuery>

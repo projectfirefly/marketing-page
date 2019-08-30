@@ -9,9 +9,8 @@
     width: 1000px;
     z-index: 4;
     background: white;
-    opacity: .95;
     padding-top: 1.5%;
-g
+
     .logo img {
         height: auto;
         width: 100%;
@@ -32,6 +31,11 @@ g
             &:hover {
                 opacity: 1;
             }
+        }
+
+        .active {
+            opacity: 1;
+            text-decoration: underline;
         }
 
         .sign_in{
