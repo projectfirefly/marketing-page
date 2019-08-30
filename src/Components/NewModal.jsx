@@ -9,8 +9,8 @@ export default () => {
     return (
         <div className="modal_container">
 
-            <SignInPage />
-            {/* <img src={require('../img/FireFly_glasses.svg')} alt=""/>
+            {/* <SignInPage /> */}
+            <img src={require('../img/FireFly_glasses.svg')} alt=""/>
             
                 <form action="">
                     <input type="text" placeholder="Email "/>
@@ -18,7 +18,7 @@ export default () => {
                     <input type="password" placeholder="Confirm password"/>
                     <input type="checkbox" />
                     <button className="button" >JOIN OUR ADVENTURE</button>
-                </form> */}
+                </form>
             
         </div>
     )
