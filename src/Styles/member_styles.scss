@@ -3,7 +3,7 @@
   height: 200px;
   position: relative;
   overflow: hidden;
-  border: 1px solid goldenrod;
+  border: 1px solid white;
   
   &:hover {
     .modal_icon_container {
@@ -14,13 +14,11 @@
       margin: 4% 0;
       padding-bottom: 1%;
       transition: all 0.3s linear;
-      border: 1px solid navy;
     }
 
     .member_info {
       .name,
       .title {
-        text-shadow: 3px 2px 2px black;
         visibility: visible;
         margin: 0;
       }
