@@ -8,7 +8,7 @@ export default _ => {
             <div className="text_container">
                 <p>
                     Firefly teaches the basics and allows children
-                    to explore more complex ideas in our Firefly
+                    to explore more complex ideas in our Firefly<br/>
                     app while having fun!
                 </p>
                 <img src={require('../img/wearing_hardHat.svg')} alt=""/>
