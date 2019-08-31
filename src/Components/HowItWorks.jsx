@@ -44,7 +44,7 @@ const HowItWorks = _ => {
                   with the core concepts of coding. The coding blocks can
                   connect in flexible patterns that encourage children to
                   investigate and test their ideas! Watch them build what they
-                  imagine! We give wings to their ideas.
+                  imagine! We give wings to their ideas!
                 </p>
               </div>
             </div>

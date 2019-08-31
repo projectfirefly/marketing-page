@@ -3,7 +3,7 @@ import MediaQuery from 'react-responsive';
 
 import Badges from './Badges';
 
-import '../Styles/teamPage_testimony.scss';
+
 import TestimonyButton from './TestimonyButton';
 import TestimonyComponent from './TestimonyComponent';
 
@@ -13,7 +13,7 @@ export default _ => {
 
     const [membersInfo] = useState([
         {
-            name: 'Ryan Holdaway',
+            name: 'Ryan "Holdy" Holdaway',
             title: 'Engineering Manager',
             pictureName: "Holdy",
             testimony: "This is the most well researched project we've ever seen. We expect big things from this team!"

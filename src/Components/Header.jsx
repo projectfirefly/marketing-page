@@ -6,26 +6,12 @@ import React, { useState } from 'react';
 // import DialogTitle from '@material-ui/core/DialogTitle';
 import Slide from '@material-ui/core/Slide';
 import { NavLink } from 'react-router-dom';
-// import { makeStyles } from '@material-ui/core/styles';
 
-// import NewModal from './NewModal';
 import '../Styles/header_styles.scss';
 
-// const Transition = React.forwardRef(function Transition(props, ref) {
-//     return <Slide direction="down" ref={ref} {...props} />;
-//   });
 
 const Header = _ => {
 
-    // const [open, setOpen] = React.useState(false);
-
-    // const handleOpen = _ => {
-    //   setOpen(true);
-    // }
-  
-    // const handleClose = _ => {
-    //   setOpen(false);
-    // }
     
     return (
         <header className="header">
@@ -48,22 +34,7 @@ const Header = _ => {
                     Sign Up
                 </a>
             </nav>
-            {/* <Dialog
-                open={open}
-                TransitionComponent={Transition}
-                keepMounted
-                onClose={handleClose}
-                aria-labelledby="alert-dialog-slide-title"
-                aria-describedby="alert-dialog-slide-description"
-            >
-                <DialogTitle id="alert-dialog-slide-title">{"Join our adventure today!"}</DialogTitle>
-                <DialogContent>
-                    <DialogContentText id="alert-dialog-slide-description">
-                        <NewModal />
-                    </DialogContentText>
-                </DialogContent>
-            </Dialog>  */}
-
+         
         </header>
     )
 }

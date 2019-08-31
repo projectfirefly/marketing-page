@@ -1,22 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
-import MobileStepper from '@material-ui/core/MobileStepper';
-import Paper from '@material-ui/core/Paper';
-import Typography from '@material-ui/core/Typography';
-
 import SwipeableViews from 'react-swipeable-views';
 import { autoPlay } from 'react-swipeable-views-utils';
+
+import '../Styles/how_it_works_carousel.scss';
 
 const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
 const tutorialSteps = [
   {
-    imgPath: require("../img/FireflyHeroPhoto.png")
+    imgPath: require("../img/how_it_works_main.PNG")
       
   },
   {
     
-    imgPath: require("../img/FireflyHero2Photo.PNG")
+    imgPath: require("../img/how_it_works_main2.PNG")
   }
 ];
 
@@ -32,9 +30,11 @@ const useStyles = makeStyles(theme => ({
   },
   img: {
 
-    display: 'block',
+    display: 'flex',
+    justifyContent: 'center',
 
     width: '100%',
+    
   },
 }));
 
@@ -42,7 +42,7 @@ export default _ => {
 
   const classes = useStyles();
   const theme = useTheme();
-  const [activeStep, setActiveStep] = React.useState(0);
+  const [activeStep, setActiveStep] = useState(0);
   const maxSteps = tutorialSteps.length;
 
   function handleStepChange(step) {

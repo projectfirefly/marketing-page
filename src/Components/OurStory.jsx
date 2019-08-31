@@ -13,7 +13,7 @@ export default _ => {
               <p>
                   We are reimagining how children learn to code by 
                   creating a playground at the intersection of art,
-                  design, and technology.
+                  design and technology.
               </p>
               <img className="fireFly_hat" src={require('../img/test.svg')} alt=""/>
 

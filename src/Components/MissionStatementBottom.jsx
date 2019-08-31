@@ -23,7 +23,7 @@ const MissionStatementBottom = _ => {
             <div class="fun tags">
               <img src={require("../img/firefly_fun.PNG")} alt="" />
               <p>
-                We create fun and engaging coding experience for all children.
+                We create fun and engaging coding experiences for all children.
                 Firefly is an innovative, open ended coding environment that
                 encourages experimentation. We understand that children learn
                 through play!
@@ -33,7 +33,7 @@ const MissionStatementBottom = _ => {
             <div class="intuitive tags">
               <img src={require("../img/firefly_intuitive.PNG")} alt="" />
               <p>
-                We create intuitive learning experience that allows children to
+                We create intuitive learning experiences that allows children to
                 figure things out without feeling stuck. The visual coding
                 blocks invite investigation and experimentation that comes
                 naturally to children.

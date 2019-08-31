@@ -18,12 +18,12 @@ export default _ => {
                 <h1>Children Can Program Fireflies!</h1>
 
                 <div className="content_container ">
-                    <div className="content">
+                    <div className="content1 content">
                         <img className="img1" src={require('../img/Customize.png')} alt=""/>
-                        <h2>Creat Your Unique Firefly!</h2>
+                        <h2>Create Your Unique Firefly!</h2>
                     </div>
 
-                    <div className="content">
+                    <div className="content2 content">
                         <div className="block_container">
 
                             <img className="img2" src={require('../img/start_block.svg')} alt=""/>
@@ -32,7 +32,7 @@ export default _ => {
                         <h2>Play With Colorful Coding Blocks</h2>
                     </div>
 
-                    <div className="content">
+                    <div className="content3 content">
                         <img className="img4" src={require('../img/firefly_box.svg')} alt=""/>
                         <h2>Imaginations take flight!</h2>
                     </div>

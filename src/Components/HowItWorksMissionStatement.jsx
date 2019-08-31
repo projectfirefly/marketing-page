@@ -2,6 +2,9 @@ import React from 'react'
 import MediaQuery from 'react-responsive';
 
 import Badges from './Badges';
+import HowItWorksPageCarousel from './HowItWorksPageCarousel';
+
+import '../Styles/how_it_works_carousel.scss'
 
 export default _ => {
     const mobile = 700;
@@ -11,7 +14,7 @@ export default _ => {
     return (
         <>
             <MediaQuery maxWidth={mobile}>
-                <div className="mission_statement">
+                <div className="how_mission_statement">
                     <div className="text">
 
                         <h1> How Firefly Works</h1>
@@ -30,7 +33,7 @@ export default _ => {
             </MediaQuery>
 
             <MediaQuery minWidth={desktop} >
-                <div className="mission_statement">
+                <div className="how_mission_statement mission_statement">
                     <div className="text">
 
                         <h1> How Firefly Works </h1>
@@ -45,7 +48,7 @@ export default _ => {
                         <Badges />
                     </div>
                     
-                    <img className="firefly_hero_img" src={require("../img/how_it_works_main.PNG")} alt=""/>
+                    <HowItWorksPageCarousel />
 
                 </div>
           

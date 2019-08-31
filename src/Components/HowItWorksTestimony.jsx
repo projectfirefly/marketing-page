@@ -8,7 +8,7 @@ export default _ => {
             name: 'Jennifer Smalls',
             pictureName: 'Girl',
             title: "Preschool Teacher",
-            testimony: "I love how easy it is to communicate with parents. I love that it is now used for our classroom portfolios and parents can have access to their child's learning. Dojo is easy to set up and very user friendly for parents!!! I don't think i cold survive without Dojo!!!"
+            testimony: "I love how easy it is to communicate with parents. I love that it is now used for our classroom portfolios and parents can have access to their child's learning. Firefly is easy to set up and very user friendly for parents!!! I don't think i cold survive without Firefly!!!"
         }
     ])
     return(
