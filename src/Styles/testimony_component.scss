@@ -63,10 +63,16 @@
             margin: 0;
             font-weight: 700;
             text-align: center;
+            @media (max-width: 510px) {
+              font-size: 38px;
+            }
           }
 
           .title {
             margin: 0;
+            @media (max-width: 510px) {
+              font-size: 36px;
+            }
           }
 
           img {
@@ -77,14 +83,20 @@
         .testimony_text {
           font-size: 1.2rem;
           margin: 0;
-
           text-align: justify;
+          @media (max-width: 510px) {
+            font-size: 38px;
+            text-align: center;
+          }
         }
       }
     }
 
     @media (max-width: 700px) {
       height: auto;
+      .testimony_text {
+        font-size: 50px;
+      }
     }
   }
 }
