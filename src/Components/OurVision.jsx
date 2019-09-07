@@ -34,7 +34,7 @@ export default _ => {
       <div className="content3 content">
         <img src={require("../img/contentGroup3_img.svg")} alt="" />
         <div>
-          <h1>We believe everyone is an engineer at hart</h1>
+          <h1>We believe everyone is an engineer at heart</h1>
           <ul>
             <li>Immersive engineering at play for children</li>
             <li>Designed by kids at heart for all kids</li>
